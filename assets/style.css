@@ -5,14 +5,20 @@ nav {
 }
 
 .navbar-brand {
-    font-size: 200%;
+    font-size: 250%;
     margin-left: 50px;
+}
+
+.navbar-collapse {
+    margin-right: 30px;
+    font-size: 120%;
 }
 
 /* Change display wide of picture and intro paragraphs */
 .pic {
-    width: 90%;
-    border-radius: 5px;
+    width: 70%;
+    border-radius: 80%;
+    margin-left: 60px;
 }
 
 .intro {
@@ -155,6 +161,10 @@ a:hover {
         display: flex;
         flex-direction: row;
         justify-content: space-around;
+    }
+
+    .pic {
+        margin-left: 38px;
     }
 
     .work-title {
