@@ -1,0 +1,169 @@
+/* Navbar design adjustment */
+nav {
+    box-shadow: 0 4px 2px -2px gray;
+    background-color: rgb(236, 233, 233);
+}
+
+.navbar-brand {
+    font-size: 200%;
+    margin-left: 50px;
+}
+
+/* Change display wide of picture and intro paragraphs */
+.pic {
+    width: 90%;
+    border-radius: 5px;
+}
+
+.intro {
+    width: 80%;
+}
+
+/* Below are designs for each project link display */
+.work-title {
+    margin: 30px 0 0 -55px;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.work {
+    transition: .5s ease;
+    cursor: pointer;
+}
+
+.work-1 {
+    background-image: url("./images/project-1.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 80%;
+    height: 200px;
+    border: 3px solid grey;
+}
+
+.work-2 {
+    background-image: url("./images/work-1.png");
+    background-size: cover;
+    background-position: top;
+    width: 80%;
+    height: 200px;
+    border: 3px solid grey;
+}
+
+.work-3 {
+    background-image: url("./images/work-2.png");
+    background-size: cover;
+    background-position: top;
+    width: 80%;
+    height: 200px;
+    border: 3px solid grey;
+}
+
+.work-4 {
+    background-image: url("./images/work-3.png");
+    background-size: cover;
+    background-position: top;
+    width: 80%;
+    height: 200px;
+    border: 3px solid grey;
+}
+
+.work-5 {
+    background-image: url("./images/work-4.jpg");
+    background-size: cover;
+    background-position: top;
+    width: 80%;
+    height: 200px;
+    border: 3px solid grey;
+}
+
+.work-6 {
+    background-image: url("./images/work-5.jpg");
+    background-size: cover;
+    background-position: top;
+    width: 80%;
+    height: 200px;
+    border: 3px solid grey;
+}
+
+.work-7 {
+    background-image: url("./images/work-6.jpg");
+    background-size: cover;
+    background-position: top;
+    width: 80%;
+    height: 200px;
+    border: 3px solid grey;
+}
+
+.work-8 {
+    background-image: url("./images/work-7.jpg");
+    background-size: cover;
+    background-position: top;
+    width: 80%;
+    height: 200px;
+    border: 3px solid grey;
+}
+
+/* Below are the designs for showing project title when hover the selection */
+.work:hover .title {
+    opacity: 1;
+    display: block;
+}
+
+.work:hover {
+    background-image: url("./images/bc-image.png");
+}
+
+.title {
+    display: none;
+    color: white;
+    transition: .5s ease;
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+/* Design and adjust contact list display with icon */
+.contact-list {
+    display: flex;
+    justify-content: center;
+}
+
+.icon {
+    font-size: 25px;
+    color: black;
+    padding: 0 20px 0 20px;
+}
+
+/* Footer copyright display */
+.footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    opacity: 0.5;
+}
+
+/* To adjust the display of navbar and contact list to fit to mobile screen */
+@media screen and (max-width: 576px) {
+    .navbar-brand {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .navbar-nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .work-title {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .contact-list {
+        flex-direction: column;
+        align-items: center;
+    }
+}
