@@ -26,10 +26,6 @@ nav {
 }
 
 /* Below are designs for each project link display */
-.work-title {
-    margin: 30px 0 0 -55px;
-}
-
 a:hover {
     text-decoration: none;
 }
@@ -37,78 +33,72 @@ a:hover {
 .work {
     transition: .5s ease;
     cursor: pointer;
+    width: 80%;
+    height: 250px;
 }
 
 .work-1 {
     background-image: url("./images/project-1.jpg");
     background-size: cover;
     background-position: center;
-    width: 80%;
-    height: 200px;
     border: 3px solid grey;
+    margin-left: 13%;
 }
 
 .work-2 {
     background-image: url("./images/work-1.png");
     background-size: cover;
     background-position: top;
-    width: 80%;
-    height: 200px;
     border: 3px solid grey;
+    margin-left: 5%;
 }
 
 .work-3 {
     background-image: url("./images/work-2.png");
     background-size: cover;
     background-position: top;
-    width: 80%;
-    height: 200px;
     border: 3px solid grey;
+    margin-left: 13%;
 }
 
 .work-4 {
     background-image: url("./images/work-3.png");
     background-size: cover;
     background-position: top;
-    width: 80%;
-    height: 200px;
     border: 3px solid grey;
+    margin-left: 5%;
 }
 
 .work-5 {
-    background-image: url("./images/work-4.jpg");
+    background-image: url("./images/work-4");
     background-size: cover;
     background-position: top;
-    width: 80%;
-    height: 200px;
     border: 3px solid grey;
+    margin-left: 13%;
 }
 
 .work-6 {
     background-image: url("./images/work-5.jpg");
     background-size: cover;
     background-position: top;
-    width: 80%;
-    height: 200px;
     border: 3px solid grey;
+    margin-left: 5%;
 }
 
 .work-7 {
     background-image: url("./images/work-6.jpg");
     background-size: cover;
     background-position: top;
-    width: 80%;
-    height: 200px;
     border: 3px solid grey;
+    margin-left: 13%;
 }
 
 .work-8 {
     background-image: url("./images/work-7.jpg");
     background-size: cover;
     background-position: top;
-    width: 80%;
-    height: 200px;
     border: 3px solid grey;
+    margin-left: 5%;
 }
 
 /* Below are the designs for showing project title when hover the selection */
@@ -170,6 +160,10 @@ a:hover {
     .work-title {
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .work {
+        margin-left: 9%;
     }
 
     .contact-list {
