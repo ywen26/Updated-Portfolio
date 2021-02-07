@@ -39,6 +39,10 @@ a:hover {
     text-decoration: none;
 }
 
+.work-title {
+    margin-top: 20px;
+}
+
 .work {
     transition: .5s ease;
     cursor: pointer;
