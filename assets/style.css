@@ -1,3 +1,8 @@
+body {
+    background-image: url("./images/bg.jpg");
+    background-size: cover;
+}
+
 /* Navbar design adjustment */
 nav {
     box-shadow: 0 4px 2px -2px gray;
@@ -12,6 +17,10 @@ nav {
 .navbar-collapse {
     margin-right: 30px;
     font-size: 120%;
+}
+
+.nav-link {
+    cursor: pointer;
 }
 
 /* Change display wide of picture and intro paragraphs */
@@ -70,7 +79,7 @@ a:hover {
 }
 
 .work-5 {
-    background-image: url("./images/work-4");
+    background-image: url("./images/work-4.png");
     background-size: cover;
     background-position: top;
     border: 3px solid grey;
